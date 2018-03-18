@@ -1,2 +1,3 @@
 # [UCSD Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
-- Course 1: Algorithmic Toolbox (03/13/2018 -
+- Course 1: Algorithmic Toolbox (03/13/2018 - 03/18/2018)
+- Course 2: Data Structures (03/18/2018 -
