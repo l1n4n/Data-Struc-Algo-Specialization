@@ -3,4 +3,4 @@
     - [Certificate](https://www.coursera.org/account/accomplishments/records/EBLEXY77BQYK)
 - Course 2: Data Structures (03/18/2018 - 
     - 03/24/2018: leaving the last advanced problem unsolved...
-- Course 3: Graph (03/25/2018 - 
+- Course 3: Algorithms on Graphs (03/25/2018 - 
