@@ -6,4 +6,6 @@
     - [Certificate](https://www.coursera.org/account/accomplishments/certificate/WAFE3AQ39GXQ)
 - Course 3: Algorithms on Graphs (03/25/2018 - 03/29/2018)
     - 03/29/2018: Advanced project to be done
-    - [Certificate](https://www.coursera.org/account/accomplishments/records/FA9KVU3Q5VUQ)
+    - [Certificate](https://www.coursera.org/account/accomplishments/records/FA9KVU3Q5VUQ)
+- Course 4: Algorithm on Strings (03/30/2018 - 
+
