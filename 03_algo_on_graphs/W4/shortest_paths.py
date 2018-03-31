@@ -4,23 +4,9 @@ import sys
 import queue
 
 
-def shortet_paths(adj, cost, s, distance, reachable, shortest):
-    #during |V|'th iteration of Bellman-Ford algorithm 
-    #not all nodes, that reachable from negative cycle will be relaxed, but just some of them. 
-    #After that you need to find the cycle and explore all reachable nodes from it.
-    #every vertex reachable from a negative cycle needs to be marked "-" as there is a path to the node of -Inf length
-    # making use of the negative cycle. In the lecture, the lecturer suggested 
-    # running a BFS starting with all the vertexes listed in D to ensure all vertexes of path length -Inf were found.
+def shortet_paths(adj, cost, s, distance, reachable, shortest):    
     """Do V iterations of Bellman-Ford, save all nodes relaxed on Vth iteration to a queue `Q`
-    Do BFS with `Q` and find all nodes reachable from `Q`
-    All those nodes and only those can have infinite distance from `s`"""
-    """Well, I believe that you are quite right. :) 
-    If the vertex is reachable from NC you can make it's distance to be -infinity. 
-    Let's denote those as F. Run DFS from S to figure the vertices reachable from S. 
-    Those reachable from S and not in F is what you need."""
-
-
-
+    Do BFS with `Q` and find all nodes reachable from `Q`"""
 
     # bf algorithm to detect neg cycles
     distance[s] = 0
@@ -41,18 +27,9 @@ def shortet_paths(adj, cost, s, distance, reachable, shortest):
                         if i == n - 1: #if updating happens during the nth iteration
                             q.append(u)
     
-    """visited(Q.first) = true
-    while Q not empty:
-        u <- Q.deQueue()
-        shortest[u] = 0 // there is no shortest path from `s` to `u`
-        for all (u, v) in E:
-            if not visited(v):
-                visited(v) = true
-                Q.push(v)"""
     # bfs to find all vertices reachable from a negetive cycle
     
     distance[s] = 0 # in case s is part of negative cycle
-
     
     seen = [False] * n
     while q:
