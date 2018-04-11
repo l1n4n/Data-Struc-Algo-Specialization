@@ -16,9 +16,6 @@ The Clauses of R(G) and Their Intended Meanings
 5. Nonadjacent nodes i and j cannot be adjacent in the path.
 • ¬xki ∨ ¬xk+1,j for all (i, j) !∈ G and k = 1, 2, . . . , n − 1
 """
-"""https://discuss.codechef.com/questions/86568/how-to-solve-hamiltonian-path-using-sat-solver-for-undirected-graph"""
-
-
 
 n, m = map(int, input().split())
 nodes = range(1, n + 1)
